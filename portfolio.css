@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper .nav{
+	height: 50px;
+}
+
+.nav ul{
+	float: right;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+.nav ul li{
+	display: inline-block;
+	padding: 10px;
+	font-family: 'Encode Sans SC', sans-serif;
+}
+
+.container{
+	margin-top: 90px;
+	margin-left: 35px;
+}
+
+.container .about .big{
+	font-size: 40px;
+	font-family: 'Encode Sans SC', sans-serif;
+}
+
+.container .about p{
+	font-size: 35px;
+	font-family: 'Encode Sans SC', sans-serif;
+}
+
+.container .image img{
+	margin-top: 70px;
+	height: 500px;
+	margin-left: 500px;
+	border: 2px solid;
+}
+
+h3{
+	font-size: 35px;
+	font-family: 'Encode Sans SC', sans-serif;
+	padding: 30px;
+}
+
+.container .skills p{
+	font-size: 35px;
+	font-family: 'Encode Sans SC', sans-serif;
+}
+
+.container .skills{
+	margin-top: 70px;
+}
+
+.container .skills .first ul{
+	margin-top: 20px;
+	list-style: none;
+
+}
+
+.container .skills .first ul li {
+	padding-left: 10px;
+	font-size: 20px;
+	margin-right: 210px;
+	font-family: 'Encode Sans SC', sans-serif;
+	display: inline-block;
+}
+
+.container .skills .sec ul{
+	list-style: none;
+	margin-top: 20px;
+}
+
+.container .skills .sec ul li{
+	font-size: 20px;
+	padding: 20px;
+	font-family: 'Encode Sans SC', sans-serif;
+	display: inline-block;
+}
+
+.projects ul{
+	list-style: none;
+	margin-top: 20px;
+}
+
+.projects ul li {
+	padding-left: 10px;
+	font-size: 20px;
+	margin-right: 210px;
+	font-family: 'Encode Sans SC', sans-serif;
+	display: inline-block;
+}
+
+.container .projects img{
+	margin-top: 50px;
+	height: 300px;
+	width: 300px;
+	margin-left: 100px;
+	border: 2px solid;
+}
+
+
+
+.row{
+	height: 300px;
+	border: 2px solid black ;
+	
+
+}
+
+.row input{
+	height: 40px;
+	width: 500px;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+
+.row textarea{
+	margin-top: 20px;
+	width: 500px;
+	margin-left: 10px;
+}
+
+.contact-form button{
+	border: 1px solid black;
+	background: white;
+	font-color: white;
+	box-shadow: none !important;
+	border-radius: 0;
+	margin-left: 220px;
+	height: 40px;
+	margin-top: 10px;
+
+}
+
+.footer ul{
+	float: left;
+	line-height: 50px;
+	margin-top: 60px;
+}
+.footer ul li{
+	display: inline-grid;
+	list-style: none;
+	font-size: 30px;
+	padding: 20px;
+}
+
+.fa-instagram, .fa-facebook, .fa-twitter{
+	background-color: black;
+	color: white;
+}
+
+.fa-instagram:hover{
+	font-size: 40px;
+}
+
+.fa-facebook:hover{
+	font-size: 40px;
+}
+
+ .fa-twitter:hover{
+	font-size: 40px;
+}
+
